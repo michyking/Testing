@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learning</title>
-  </head>
-  <body>
-    <h5>Coding</h5>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-      aliquid blanditiis consequuntur laborum explicabo nobis eaque ipsa
-      expedita alias tempore iusto possimus, ad doloribus odio quae qui magni
-      asperiores deserunt!
-    </p>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Create Account</h2>
+            </div>
+            <form class="form" id="form" action="">
+                <div class="constant">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fName">
+                    <small>error message</small>
+                </div>
+                <div class="constant">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lName">
+                    <small>error message</small>
+                </div>
+                <div class="constant">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <small>error message</small>
+                </div>
+                <div class="constant">
+                    <label for="Password">Password</label>
+                    <input type="password" id="password">
+                    <small>error message</small>
+                </div>
+                <div class="constant">
+                    <label for="Password2">Confirm Password</label>
+                    <input type="password" id="password2">
+                    <small>error message</small>
+                </div>
+                <input type="submit" class="btn">
+            </form>
+
+        </div>
+        <script src="JS/script.js"></script>
+    </body>
 </html>
